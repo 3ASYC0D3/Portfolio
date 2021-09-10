@@ -15,7 +15,7 @@
 <body class="d-flex flex-column mx-auto w-100 h-100">
     <header class="container-fluid mb-auto fixed-top">
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <div class="navbar-container container "> 
+            <div class="container "> 
                 <a class="navbar-brand" href="#">Dariusz Gulka</a>
                 <div class="float-rh">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,110 +54,126 @@
                     <img class="faceimg" src="./images/me2.jpg" width="240px" alt="" srcset="">
                 </div>
                 <div class="col-md-12 col-lg-8">
-                    <p class="display-4">About me</p>
+                    <p class="display-6">About me</p>
                     <p class="lead"> In 2019 I graduated at <a href="http://pwr.edu.pl/" class="anchor-link"><b>Wrocław University of Science and Technology</b></a>, 
                         where I had a great time working as a member of Student Council and University Aviation Club.
                         Shortly after graduation I have started to work at <a href="https://www.instagram.com/ryanairengineering/" class="anchor-link">
                         <b>Ryanair Engineering</b></a> - ensuring that all passengers will arrive to their destination safely and on time. Firstly I was an Aircraft Mechanic, 
                         then Material Coordinator and later Document Controller. During these 2 years I have learnt a lot, I have been training in Italy and Scotland 
-                        and I have spent over 8 months working in Jordan - great time. But after all I realized, that... Sorry(not sorry!) aicraft maintenance is <b>booooring</b>.
+                        and I have spent over 8 months working in Jordan - great time. But after all I realized, that... Sorry(not sorry!), aicraft maintenance is <b>booooring</b>.
                     </p>
-                    <p class="lead">
+                    <p class="lead pb-4">
                         Currently I'm looking for an opportunity to learn new technologies and grow as a software developer. See my actual achievements below.
                     </p>
+                    <div class="align-items-center">
+                        <button type="button" class="btn btn-outline-dark btn-sm" onclick="OpenInNewTabWinBrowser('./resume/resume')">
+                            View my resume
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
         <div id="skills" class="container">
-            <div class="row pl-sm-5">
-                <div class="skills-title col-sm-12 col-md-4 col-lg-3">
-                    <p class="display-4">Skills</p>
+            <div class="row">
+                <div class="skills-title col-md-12 col-lg-12">
+                    <p class="display-6">Skills</p>
                 </div>
-                <div class=" col-md-12 col-md-8 col-lg-9 skills-lists-container">
-                    <div class="row">
-                    <div class="skills-container pb-sm-4 col-sm-12 col-md-6 col-lg-3">
-                        <p class="skills-category"><b>Languages</b></p>
-                        <ul class="skills-list">
-                            <li class="skilss-item">JavaScript</li>
-                            <li class="skilss-item">EJS</li>
-                            <li class="skilss-item">CSS</li>
-                            <li class="skilss-item">HTML</li>
-                        </ul>
-                    </div>
-                    <div class="skills-container pb-sm-4 col-sm-12 col-md-6 col-lg-3">
-                        <p class="skills-category"><b>Frameworks</b></p>
-                        <ul class="skills-list">
-                            <li class="skilss-item">Node</li>
-                            <li class="skilss-item">Bootstrap</li>
-                            <li class="skilss-item">Express</li>
-                            <li class="skilss-item"></li>
-                        </ul>
-                    </div>
-                    <div class="skills-container pb-sm-4 col-sm-12 col-md-6 col-lg-3">
-                        <p class="skills-category"><b>Tools</b></p>
-                        <ul class="skills-list">
-                            <li class="skilss-item">Git & GitHub</li>
-                            <li class="skilss-item">Postman</li>
-                            <li class="skilss-item">MongoDB</li>
-                            <li class="skilss-item">Visual Code Studio</li>
-                        </ul>
-                    </div>
-                    <div class="skills-container pb-sm-4 col-sm-12 col-md-6 col-lg-3">
-                        <p class="skills-category"><b>Other</b></p>
-                        <ul class="skills-list">
-                            <li class="skilss-item">Photoshop</li>
-                            <li class="skilss-item">Figma</li>
-                            <li class="skilss-item">Chrome Dev Tools</li>
-                            <li class="skilss-item"></li>
-                        </ul>
-                    </div>
+                <div class="skills-container pb-sm-4 col-sm-12 col-md-6 col-lg-3">
+                    <p class="h5">Languages</p>
+                    <ul class="skills-list">
+                        <li class="skilss-item">JavaScript</li>
+                        <li class="skilss-item">EJS</li>
+                        <li class="skilss-item">CSS</li>
+                        <li class="skilss-item">HTML</li>
+                    </ul>
+                </div>
+                <div class="skills-container pb-sm-4 col-sm-12 col-md-6 col-lg-3">
+                    <p class="h5">Frameworks</p>
+                    <ul class="skills-list">
+                        <li class="skilss-item">Node</li>
+                        <li class="skilss-item">Bootstrap</li>
+                        <li class="skilss-item">Express</li>
+                        <li class="skilss-item"></li>
+                    </ul>
+                </div>
+                <div class="skills-container pb-sm-4 col-sm-12 col-md-6 col-lg-3">
+                    <p class="h5">Tools</p>
+                    <ul class="skills-list">
+                        <li class="skilss-item">Git & GitHub</li>
+                        <li class="skilss-item">Postman</li>
+                        <li class="skilss-item">MongoDB</li>
+                        <li class="skilss-item">Visual Code Studio</li>
+                    </ul>
+                </div>
+                <div class="skills-container pb-sm-4 col-sm-12 col-md-6 col-lg-2">
+                    <p class="h5">Other</p>
+                    <ul class="skills-list">
+                        <li class="skilss-item">Photoshop</li>
+                        <li class="skilss-item">Figma</li>
+                        <li class="skilss-item">Chrome Dev Tools</li>
+                        <li class="skilss-item"></li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div id="portfolio" class="container section-center">
-            <h2>Portfolio</h2>
-            <div class="portfolio-item">
-                <img src="..." class="img-thumbnail" alt="...">
-                <h2>YelpCamp</h2>
-                <a href="https://yelp-camp-d-gulka.herokuapp.com">Visit</a>
-                <p> HTML, CSS, JS, Node, Express, MongoDB</p>
-            </div>
-            <div class="portfolio-item">
-                <img src="..." class="img-thumbnail" alt="...">
-                <h2>YelpCamp</h2>
-                <a href="https://yelp-camp-d-gulka.herokuapp.com">Visit</a>
-                <p> HTML, CSS, JS, Node, Express, MongoDB</p>
-            </div>
-            <div class="portfolio-item">
-                <img src="..." class="img-thumbnail" alt="...">
-                <h2>YelpCamp</h2>
-                <a href="https://yelp-camp-d-gulka.herokuapp.com">Visit</a>
-                <p> HTML, CSS, JS, Node, Express, MongoDB</p>
-            </div>
+        <div id="portfolio" class="container">
+            <div class="row">
+                <div class="skills-title col-md-12 col-lg-3">
+                    <p class="display-6">Portfolio</p>
+                </div>
+                <div class="portfolio-item  col-sm-12 col-md-4 col-lg-3">
+                    <img src="./images/yelpcamp1.JPG" class="img-thumbnail" alt="...">
+                    <p class="h5">YelpCamp<p>
+                    <p> JS, Node, Express, MongoDB</p>
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-outline-dark" onclick="OpenInNewTabWinBrowser('https://yelp-camp-d-gulka.herokuapp.com')">
+                            Visit
+                        </button>
+                    </div>    
+                </div>
+                <div class="portfolio-item col-sm-12 col-md-4 col-lg-3">
+                    <img src="./images/personal_site_screenshot.JPG" class="img-thumbnail" alt="...">
+                    <p class="h5">This website<p>
+                    <p> CSS, Bootstrap</p>
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-outline-dark" onclick="alert('Currently viewing this website :&rang; ')">
+                            Visit
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio-item col-sm-12 col-md-4 col-lg-3">
+                    <img src="./images/github_repos2.JPG" class="img-thumbnail" alt="...">
+                    <p class="h5">GitHub Repositories<p>
+                    <p>Continuously building</p>
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-outline-dark" onclick="OpenInNewTabWinBrowser('https://github.com/3ASYC0D3')">
+                            Visit
+                        </button>
+                    </div>
+                </div>      
+            </div> 
         </div>
         <div id="contact" class="container">
-            <div class="contact-info">
-                <p>I am currently looking for job opportunities <br> See my <a href="/resumeURL">resume here.</a> </p>
-                <h2>Want to hire me?</h2>
-                <p>Send me an e-mail!</p>
+                <!-- <p class="lead">I am currently looking for job opportunities</p>  -->
+                <p class="h2 pb-2">Want to hire me?</p>
+                <p class="lead">Send me an e-mail!</p>
                 <p><b>dariuszgulka@gmail.com</b></p>
-                <ul>
-                    <li><a href="git"></a></li>
-                </ul>
-
-            </div>
         </div>
     </main>
-    <footer>
-        <div class="container">
-            <ul class="footer-links">
-                <li><a href=""><i class="fab fa-github-square"></i></a></li>
-                <li><a href=""><i class="fab fa-linkedin"></i></a></li>
-                <li><a href=""><i class="fas fa-envelope-square"></i></a></li>
-            </ul>
+    <footer class="bg-dark">
+        <div class="container navbar sticky-bottom navbar-dark bg-dark">
             <p>&copy; 2021 Dariusz Gulka</p>
+            
+            <ul class="footer-links">
+                <li><a href=""><i class="fab fa-github-square fa-2x"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin fa-2x"></i></a></li>
+                <li><a href=""><i class="fas fa-envelope-square fa-2x"></i></a></li>
+            </ul>
+            
         </div>
+ 
     </footer>
+    <script src="./scripts/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
