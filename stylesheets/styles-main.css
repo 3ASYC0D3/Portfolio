@@ -148,6 +148,11 @@ footer i {
     color: white;
 }
 
+footer i:hover {
+    color: rgb(201, 201, 201);
+    transition: .2s
+}
+
 :root {
     --mainColor: rgb(0, 0, 0);
 }
@@ -164,7 +169,7 @@ footer i {
     color: #000;
     text-decoration: none;
     transition: background-size .2s;
-  }
+}
 
 .animated-link-no-decration{
         background:
@@ -177,15 +182,15 @@ footer i {
         background-size: 4px 0px;
         color: #000;
         text-decoration: none;
-        transition: background-size .2s;
-      }
+        transition: background-size .2s !important;
+}
 
 .animated-link-no-decration:hover {
     color: white !important;
     background-size: 4px 50px;
 }
-  
-  .animated-link:hover {
+
+.animated-link:hover {
     color: white;
     background-size: 4px 50px;
-  }
+}
