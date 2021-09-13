@@ -112,11 +112,14 @@ main {
 }
 
 .skills-container {
-    padding-left: 80px;
+    margin-left: 30px;
+    padding-left: 0;
 }
 
 .skills-list {
     padding: 0;
+    margin: 0;
+    white-space: nowrap;
 }
 
 button a {
