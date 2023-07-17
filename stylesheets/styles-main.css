@@ -43,7 +43,7 @@ header {
 }
 
 .welcome-bg{
-    background-image: url('../images/paper.jpg');
+    background-image: url('../images/welcome_background.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ header {
 
 #contact, #portfolio {
     color: #364C64;
-    background-image: url('../images/beige_BG.jpg');
+    background-image: url('../images/beige_background.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
