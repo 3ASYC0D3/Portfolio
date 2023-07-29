@@ -1,3 +1,8 @@
+:root {
+    --light-blue-color: #799fa8;
+    --dark-blue-color: #364C64;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
@@ -15,6 +20,11 @@ header {
     font-weight: bold;
 }
 
+.nav-link:hover, .nav-link.active {
+    color: var(--light-blue-color) !important;
+    text-shadow: 0px 0px 1px rgba(66, 68, 90, 1);
+}
+
 .navbar-brand {
     color: black;
     text-decoration: none;
@@ -24,7 +34,7 @@ header {
 }
 
 .section-full-height {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .text-section {
@@ -34,7 +44,7 @@ header {
 }
 
 #welcome {
-    color: #364C64;
+    color: var(--dark-blue-color);
     display: flex;
     flex-direction: column;
     height: 100vh;;
@@ -50,7 +60,7 @@ header {
 }
 
 #about, #skills {
-    background-color: #799fa8;
+    background-color: var(--light-blue-color);
 }
 
 .portrait {
@@ -59,7 +69,7 @@ header {
 }
 
 #contact, #portfolio {
-    color: #364C64;
+    color: var(--dark-blue-color);
     background-image: url('../images/beige_background.jpg');
     background-position: center center;
     background-size: cover;
@@ -115,7 +125,7 @@ header {
 }
 
 .socials-container{
-    background-color: #799fa8;
+    background-color: var(--light-blue-color);
     border-radius:70px;
     box-shadow: 0px 0px 8px 2px rgba(66, 68, 90, 1);
 }

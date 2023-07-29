@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./stylesheets/cd-words-wraper-type.css">
     <link rel="stylesheet" href="./stylesheets/animated-headline.css">
     <link rel="stylesheet" href="./stylesheets/meyerweb-reset.css">
-    <link rel="stylesheet" href="./stylesheets/animated-link.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/ccf032fdc2.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,26 +17,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&family=Rock+Salt&display=swap" rel="stylesheet">
 </head>
 <body class="d-flex flex-column mx-auto h-100">
-    <header class="container-fluid  navbar-shadow mb-auto fixed-top">
-        <nav class="navbar navbar-expand-sm navbar-light bg-white">
+    <header class="navbar-shadow mb-auto fixed-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-body-white">
             <div class="container-fluid">
                 <a class="navbar-brand ms-4" href="#">Dariusz Gulka</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLinksContainer" aria-controls="navbarLinksContainer" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse me-4 d-flex justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse" id="navbarLinksContainer">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active animated-link-no-decration lead fw-normal" href="#about">about me</a>
+                            <a class="nav-link lead fw-normal" href="#about">about me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active animated-link-no-decration lead fw-normal" href="#portfolio">portfolio</a>
+                            <a class="nav-link lead fw-normal" href="#portfolio">portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active animated-link-no-decration lead fw-normal" href="#skills">skills</a>
+                            <a class="nav-link lead fw-normal" href="#skills">skills</a>
                         </li>
                         <li class="nav-item">
-                             <a class="nav-link active animated-link-no-decration lead fw-normal" href="#contact">contact</a>
+                            <a class="nav-link lead fw-normal" href="#contact">contact</a>
                         </li>
                     </ul>
                 </div>
@@ -45,10 +44,10 @@
         </nav>
     </header>
     <main>
-        <div id="welcome" class="welcome-bg d-flex text-center">
+        <section id="welcome" class="welcome-bg d-flex text-center">
             <div class="mb-5">
                 <p class="display-5 fw-normal headline">Hi! My name is Darek</p>
-                <section class="cd-intro">
+                <div class="cd-intro">
                     <p class="display-5 fw-normal cd-headline letters type">
                         <span>I'm ready to</span> 
                         <span class="cd-words-wrapper waiting">
@@ -57,10 +56,10 @@
                             <b>develop.</b>
                         </span>
                     </p>
-                </section>
+                </div>
             </div>
-        </div>
-        <div id="about" class="section-full-height d-flex align-content-center justify-content-center flex-wrap">
+        </section>
+        <section id="about" class="section-full-height d-flex align-content-center justify-content-center flex-wrap">
             <div class="row justify-content-center">
                 <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-11 d-flex flex-wrap justify-content-center align-content-center">
                     <img class="portrait mt-4" src="./images/portrait.jpg" width="330px" alt="portrait">
@@ -81,8 +80,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="portfolio" class="section-full-height d-flex align-content-center justify-content-center flex-wrap">
+        </section>
+        <section id="portfolio" class="section-full-height d-flex align-content-center justify-content-center flex-wrap">
             <div class="row justify-content-center">
                 <div class="col-xxl-2 col-xl-12 col-lg-12 col-md-12 col-sm-12">
                     <p class="display-5 section-title fw-normal ms-5">Portfolio</p>
@@ -123,8 +122,8 @@
                     <div class="lead fw-normal">If you decide to visit Flashcards or Yelp Camp applications, please give it some time to start server. It takes time (approx. 30sec) due to the free host tier.</div>
                 </DIV>
             </div>
-        </div>
-        <div id="skills" class="section-full-height d-flex align-content-center justify-content-center flex-wrap">
+        </section>
+        <section id="skills" class="section-full-height d-flex align-content-center justify-content-center flex-wrap">
             <div class="row justify-content-center">
                 <div class="skills-title col-xxl-2 col-xl-2 col-lg-10 col-md-10 col-sm-10">
                     <p class="display-5 section-title fw-normal">Skills</p>
@@ -168,8 +167,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="contact" class="section-full-height d-flex flex-column align-content-center justify-content-center text-center flex-wrap">
+        </section>
+        <section id="contact" class="section-full-height d-flex flex-column align-content-center justify-content-center text-center flex-wrap">
             <p class="display-5 section-title fw-normal">Get in touch!</p>
             <div class="d-inline-flex justify-content-center py-5 socials-container">
                 <div class="mx-4"><a href="https://github.com/3ASYC0D3"><i class="fab fa-github-square fa-2x"></i></a></div>
@@ -177,15 +176,16 @@
                 <div class="mx-4"><a href="mailto: dariuszgulka@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a></div>
             </div>
             <p class="lead fw-normal mt-3">Find me on social media or send an e-mail</p>
-        </div>
+        </section>
     </main>
     <footer class="bg-dark p-3">
         <div class="navbar sticky-bottom navbar-dark bg-dark justify-content-end">
-            <p class="text-end me-3">&copy; 2021 Dariusz Gulka</p>
+            <span class="text-end me-3 fw-bold">&copy; 2021 Dariusz Gulka</span>
         </div>
     </footer>
     <script src="./scripts/jquery-2.1.1.js"></script>
     <script src="./scripts/main.js"></script>
+    <script src="./scripts/navbar-active-link.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
