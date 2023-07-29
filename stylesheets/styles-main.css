@@ -22,7 +22,12 @@ header {
 
 .nav-link:hover, .nav-link.active {
     color: var(--light-blue-color) !important;
-    text-shadow: 0px 0px 1px rgba(66, 68, 90, 1);
+    text-shadow: 0.2px 0.2px 1px rgb(0, 0, 0);
+}
+
+.nav-link.active {
+    text-decoration: underline;
+    text-underline-offset: 6px;
 }
 
 .navbar-brand {
@@ -101,12 +106,12 @@ header {
 }
 
 .portfolio-item {
-        background-color: white;
-        border: 1px solid #c6c6c6;
-        border-radius: 10px;
-        margin: 10px;
-        padding: 10px;
-        box-shadow: 5px 5px 7px -1px rgba(71, 71, 76, 1);
+    background-color: white;
+    border: 1px solid #c6c6c6;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 7px -1px rgba(71, 71, 76, 1);
 }
 
 .portfolio-img {
